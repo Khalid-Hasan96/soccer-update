@@ -103,7 +103,8 @@ header {
     transition: 2s;
 }
 
-#btn-default {
+/* upcoming match area */
+#upcoming-btn {
     background-color: var(--color-red);
     color: var(--color-white);
 }
@@ -114,45 +115,38 @@ header {
     gap: 30px;
 }
 
-.blogs-area {
+.matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
-.blogs {
-    border: 1px solid #d3d3d3;
+.match {
     width: 312px;
-    height: 362px;
+    height: 242px;
+    border: 1px solid #d4d3d3;
     border-radius: 10px;
-}
-
-.blog-details {
-    margin-top: 20px;
-    padding: 10px;
-}
-
-.blog-details a {
-    text-decoration: none;
-    color: #000;
-    font-weight: 700;
-    border: 2px solid #000;
-    border-radius: 5px;
-    padding: 5px 15px;
-}
-
-.blog-details h3 {
-    margin-top: 20px;
-}
-
-.icons {
-    margin-top: 20px;
-    color: #484848;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.icons p:nth-child(2n) {
-    margin-left: 20px;
+.team-flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-flag h4 {
+    margin: 0 20px;
+}
+
+.team-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 }
 
 /* main section end */
@@ -186,6 +180,7 @@ hr {
     gap: 40px;
     color: #717171;
     margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .social-icons a {
@@ -197,24 +192,19 @@ hr {
 }
 
 /* footer end */
-
-/* responsive */
-
 @media screen and (max-width: 600px) {
     .head-container {
-        flex-direction: column;
+
+        background-color: yellow;
+
     }
 }
 
 @media screen and (min-width: 601px) {
     .head-container {
-        background-color: blue;
-        height: 100vh;
-    }
 
-    .head-details h1 {
-        font-size: 22px;
-        font-weight: 700;
+        background-color: blue;
+
     }
 }
 
