@@ -324,6 +324,9 @@ hr {
 
     .btn-section a {
         border: 1px solid #484848;
+        width: 260px;
+        text-align: center;
+        font-size: 18px;
     }
 
     .matches {
@@ -379,6 +382,8 @@ hr {
 
     .btn-section a {
         border: 1px solid #484848;
+        width: 260px;
+        text-align: center;
     }
 
     .matches {
