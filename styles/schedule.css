@@ -25,9 +25,15 @@ header {
     background-color: var(--primary-color);
     width: 88%;
     height: 95vh;
+    border-radius: 15px;
+
+}
+
+.container {
     display: flex;
     align-items: center;
-    border-radius: 15px;
+    padding: 0 20px 0 20px;
+
 }
 
 .half-width {
@@ -37,7 +43,6 @@ header {
 .head-details {
     color: var(--color-white);
     padding: 30px;
-
 }
 
 .head-details h1 {
@@ -64,11 +69,11 @@ header {
 
 .head-img img {
     width: 100%;
-    padding-right: 20px;
+    height: 95vh;
 }
 
 .head-img img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform 2s;
 }
 
